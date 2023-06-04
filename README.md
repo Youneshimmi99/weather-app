@@ -17,7 +17,7 @@ To get started with this project, follow the steps below:
 
 1. Clone the repository to your local machine:
    ```shell
-   git clone https://github.com/your-username/laravel-weather-forecast.git
+   git clone https://github.com/Youneshimmi99/weather-app.git
    ```
 
 2. Navigate to the project directory:
