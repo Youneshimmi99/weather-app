@@ -43,7 +43,7 @@ Replace YOUR_API_KEY with your actual OpenWeatherMap API key.
 
 ## Usage
 
-* To get the current weather for a specific location:
+1. To get the current weather for a specific location:
    ```shell
     php artisan current {location} [--u|--units={metric|imperial}]
    ```
@@ -52,16 +52,7 @@ Example:
     php artisan current Havana,CU -uimperial    
    ```
 
-* To get the weather forecast for a specific location:
-   ```shell
-    php artisan forecast {location} [--d|--days={1-5}] [--u|--units={metric|imperial}]
-   ```
-Example:
-   ```shell
-    php artisan forecast Madrid,ES --units=imperial --days=4 
-   ```
-
-* To get the weather forecast for a specific location:
+2. To get the weather forecast for a specific location:
    ```shell
     php artisan forecast {location} [--d|--days={1-5}] [--u|--units={metric|imperial}]
    ```
