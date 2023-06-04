@@ -17,7 +17,7 @@ class GetCurrentWeather extends Command
         $units = $this->option('units');
 
         $client = new Client();
-        $apiKey = '31f89d93e1986450106b0d57152a28a5';
+        $apiKey = env('WEATHER_FORECAST_API_KEY');
 
         $url = "https://api.openweathermap.org/data/2.5/weather?q={$location}&units={$units}&appid={$apiKey}";
 
