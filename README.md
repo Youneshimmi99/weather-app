@@ -47,7 +47,7 @@ Replace YOUR_API_KEY with your actual OpenWeatherMap API key.
    ```shell
     php artisan current {location} [--u|--units={metric|imperial}]
    ```
-Example:
+* Example:
    ```shell
     php artisan current Havana,CU -uimperial    
    ```
@@ -60,7 +60,7 @@ Example:
    ```shell
     php artisan forecast:ask
    ```
-Example:
+* Example:
    ```shell
     php artisan forecast Madrid,ES --units=imperial --days=4 
    ```
